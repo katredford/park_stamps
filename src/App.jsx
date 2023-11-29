@@ -1,7 +1,9 @@
 import { useState } from 'react'
 
+
 import './App.css'
 import ApiTest from './components/ApiTest'
+import Map from './components/Map'
 
 function App() {
  
@@ -9,7 +11,8 @@ function App() {
 
   return (
     <>
-      <ApiTest />
+      {/* <ApiTest /> */}
+     <Map />
     </>
   )
 }
