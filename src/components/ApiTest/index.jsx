@@ -8,7 +8,7 @@ export default function ApiTest() {
   // fetch(`https://developer.nps.gov/api/v1/parks?lparkCode=&stateCode=&limit=100&api_key=${apiKey}`)
   // fetch(`https://developer.nps.gov/api/v1/passportstamplocations?&api_key=${apiKey}`)
     
-  fetch(`https://developer.nps.gov/api/v1/visitorcenters?parkCode=&stateCode=nv&limit=10&api_key=${apiKey}`)
+  fetch(`https://developer.nps.gov/api/v1/visitorcenters?parkCode=&stateCode=nv,az&limit=10&api_key=${apiKey}`)
     .then(response => {
     return response.json()
     }).then(data => {
